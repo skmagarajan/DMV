@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+<style>
+    .container {
+        padding-top: 8px;
+    }
+</style>
+<script>
+    function change(x) {
+        x.style.background = "rgb(255,233,15)";
+    }
+    function normalImg(x) {
+        x.style.background = "white";
+    }
+</script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="layout.css">
+
+<title>Menu - DMV Services</title>
+
+<div class="bodybg2"> </div> <br><br>
+<h2>DEPARTMENT OF MOTOR VEHICLE</h2> <br>
+
+<div class="container">
+    
+    <h3>What can we help you with today?</h3> <br>
+    <div class="row">
+
+        <!-- <div class="col" id="img_il">
+                             </div> -->
+        <div style="text-align:center">
+
+            <span class="dot_set1" onmouseover="change(this)" onmouseout="normalImg(this)"
+                onclick="window.location.href='stateid.html'">Get a state ID </span>
+            <span class="dot_set1" onmouseover="change(this)" onmouseout="normalImg(this)"
+                onclick="window.location.href='scheduleappt.html'">Schedule Appointment</span>
+            <span class="dot_set1" onmouseover="change(this)" onmouseout="normalImg(this)"
+                onclick="window.location.href='sticker.html'">Receive a New sticker</span>
+        </div>
+    </div>
+    <div class="row">
+        <div style="text-align:center">
+            <span class="dot_set2" onmouseover="change(this)" onmouseout="normalImg(this)"
+                onclick="window.location.href='getlicense.html'">Apply for new driver's license</span>
+            <span class="dot_set2" onmouseover="change(this)" onmouseout="normalImg(this)">Renew Driver license</span>
+
+        </div>
+    </div>
+    <div class="row">
+        <div style="text-align:center">
+            <span class="dot_set3" onmouseover="change(this)" onmouseout="normalImg(this)">Report Vehicle</span>
+        </div>
+    </div>
+    
+</div>
+</div>
+<br><br>
+    <input type="button" class="btn btn-primary" value="Back to Login Page" style="margin-left: 45%;" onclick="window.location.href='introscreen.html'"">
+    <br>
+</body>
+
+</html>
