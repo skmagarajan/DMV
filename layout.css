@@ -1,6 +1,6 @@
 h1 {
     font-size: 22px;
-    color: orange;
+    color: white;
     text-align: center;
     font-style: Arial;
     font-weight: bold;
@@ -9,7 +9,7 @@ h1 {
 
 h2 {
     font-size: 25px;
-    color: orange;
+    color: white;
     text-align: left;
     font-style: Arial;
     font-weight: bold;
@@ -24,7 +24,7 @@ h3 {
 }
 
 h4 {
-    font-size: 15px;
+    font-size: 23px;
     color: white;
     font-style: Arial;
     font-weight: bold;
@@ -42,15 +42,15 @@ h4 {
 }
 
 h5 {
-    font-size: 15px;
-    color: red;
+    font-size: 20px;
+    color: white;
     font-style: Arial;
     font-weight: bold;
 }
 
 h6 {
-    font-size: 15px;
-    color: green;
+    font-size: 25px;
+    color: white;
     font-style: Arial;
     font-weight: bold;
 }
