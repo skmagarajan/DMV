@@ -44,14 +44,16 @@
                 <form>
                     <div class="form-group">
                         <input class="input-group-text" type="file" id="certification_upload"
-                            accept="certificate/pdf, certificate/png, certificate/jpeg">
-                        <a href="#" id="clear1" onclick="makeClear('certification_upload')">Clear</a>
-                        <br>
-
+                            accept="certificate/pdf, certificate/png, certificate/jpeg"><br>
+						<button type="button" class="btn btn-primary" onclick="makeClear('certification_upload')"
+                        style="margin-bottom: 30px;">Clear</button><br>	
+                       
                         <p>Please upload a photo of yourself taken in front a blue colored background. </p>
                         <input class="input-group-text" type="file" id="photo_upload" accept="photo/png, photo/jpeg">
-                        <a href="#" id="clear2" onclick="makeClear('photo_upload')">Clear</a>
-                        <br>
+						<br>
+						<button type="button" class="btn btn-primary" onclick="makeClear('photo_upload')"
+                        style="margin-bottom: 30px;">Clear</button><br>
+                        
                         <p>Please input your permit number</p>
                         <input type="number" class="input-group-text" id="number_input"><br>
                         <p>Please schedule an appointment to take your behind the wheel exam with a DMV representative.
